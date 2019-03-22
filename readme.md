@@ -1,5 +1,5 @@
 # Node OCR Tesseract Implementation
-This project is a simplest implementation of [Tesseract.js](http://tesseract.projectnaptha.com/) library to transform image characters in text.
+This project is a simplest implementation of [Tesseract.js](http://tesseract.projectnaptha.com/) library to transform image characters in text. This project is a server which receives a REST HTTP request with a image's path and transforms image's characters in text.
 
 ## How do I run this project?
 First you have to **run the server and keep it listening to a local port** to be able to transform images via REST communication.
@@ -22,7 +22,7 @@ I'm using Visual Studio Code to debug this project. So here's the way I'm doing:
 1. First of all, you must install Visual Studio Code if you don't have it yet.
 2. After installed, check if you can run the server as mentioned in the last tutorial above (installing Node.js, nodemon, dependencites and etc).
 3. Everything needed to debug in VSCode I already wrote! =)
-4. So just press F5 button (or go to `Debug > Start debugging`) to run the server in **debug** mode =)
+4. So just press F5 key (or go to `Debug > Start debugging`) to run the server in **debug** mode =)
 
 ### Do you have any sugestion?
 Send me a pull request! =)
