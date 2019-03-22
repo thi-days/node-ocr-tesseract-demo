@@ -9,6 +9,10 @@ app.use(express.urlencoded({
     extended: true
 }));
 
+app.get('', (req, res) => {
+    res.send('Send a POST request to /read-image. For more information, read the readme.md file at this project. =)');
+});
+
 app.post('/read-image', (req, res) => {
     console.log('Body: ', req.body);
     tesseractController
@@ -26,5 +30,5 @@ app.post('/read-image', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`OCR Server is listening at ${port}`);
+    console.log(`OCR Server is listening at port ${port}`);
 });
