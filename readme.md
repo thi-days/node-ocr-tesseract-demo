@@ -17,7 +17,14 @@ Now the server is running and ready to receive REST calls and this is what we'll
 4. Send the request and analyze the console output showing text data as text.
 5. You can change the `imgUrl` token to another supported image path (remote path or local path in the server).
 
-### Do you have any sugestions?
+## How do I debug this application?
+I'm using Visual Studio Code to debug this project. So here's the way I'm doing:
+1. First of all, you must install Visual Studio Code if you don't have it yet.
+2. After installed, check if you can run the server as mentioned in the last tutorial above (installing Node.js, nodemon, dependencites and etc).
+3. Everything needed to debug in VSCode I already wrote! =)
+4. So just press F5 button (or go to `Debug > Start debugging`) to run the server in **debug** mode =)
+
+### Do you have any sugestion?
 Send me a pull request! =)
 
 **Thanks!**
