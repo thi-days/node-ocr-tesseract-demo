@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "tesseract.js": "^1.0.14"
+    "tesseract.js": "^2.1.1"
   }
 }
