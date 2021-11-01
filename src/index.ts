@@ -1,12 +1,14 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import { tesseractApi, welcomeApi } from './api';
+import { appSetup } from './config';
 
 const app = express();
 
 // Setup express application
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+if (!appSetup(app)) {
+  process.exit(-99);
+}
 
 // Initialize environment config
 dotenv.config();
