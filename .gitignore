@@ -75,10 +75,13 @@ typings/
 # FuseBox cache
 .fusebox/
 
-#DynamoDB Local files
+# DynamoDB Local files
 .dynamodb/
 
-#Package lock
+# Package-lock
 package-lock.json
+
+# Trained data
+*.traineddata
 
 # End of https://www.gitignore.io/api/node
